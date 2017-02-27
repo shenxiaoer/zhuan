@@ -76,7 +76,7 @@
             x = acceleration.x;
             y = acceleration.y;
             z = acceleration.z;
-            if (Math.abs(x - lastX) > speed || Math.abs(y - lastY) > speed || Math.abs(z - lastZ) &gt; speed) {
+            if (Math.abs(x - lastX) > speed || Math.abs(y - lastY) > speed || Math.abs(z - lastZ)> speed) {
               //摇一摇实际场景就是加速度的瞬间暴增爆减
               if (!isHaveShaked) {
                   alert(x); //自己测试各坐标的值。。
