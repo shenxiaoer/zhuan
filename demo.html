@@ -79,9 +79,9 @@
             if (Math.abs(x - lastX) > speed || Math.abs(y - lastY) > speed || Math.abs(z - lastZ)> speed) {
               //摇一摇实际场景就是加速度的瞬间暴增爆减
               if (!isHaveShaked) {
-                  alert(x); //自己测试各坐标的值。。
-                  alert(y)
-                      alert(z);
+                  //alert(x); //自己测试各坐标的值。。
+                  //alert(y)
+                      //alert(z);
                       //手机震动1秒
                   if (navigator.vibrate) {
                         navigator.vibrate(1000);//震动1000毫秒
@@ -92,7 +92,7 @@
                   isHaveShaked = true;
                       setTimeout(function () {
                         isHaveShaked = false;
-                        //.....      
+                           alert("你中奖啦");
                           }, 2000);
                       }
                 }
